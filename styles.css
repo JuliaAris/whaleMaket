@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightcyan;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  margin-top: 0.5em;
+  width: 100%;
+}
+
+h3 {
+  padding: 0.5em;
+  font-family: "Poppins";
+  font-weight: 700;
+  color: darkblue;
+}
+
+p {
+  padding: 1em;
+  text-align: justify;
+  font-family: "Poppins";
+  font-weight: 500;
+  color: darkblue;
+  font-size: 1.3em;
+}
+
+header {
+  display: flex;
+  background-color: lightskyblue;
+}
+
+nav {
+  padding: 16px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  background-color: lightskyblue;
+  width: 100%;
+}
+
+.nav_item {
+  padding: 16px;
+  flex-grow: 1;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: 600;
+  color: black;
+}
+
+section {
+  display: flex;
+  padding: 1em;
+  gap: 1em;
+}
+
+.pic {
+  flex-grow: 3;
+  width: 70vw;
+}
+
+.pic4 {
+  width: 100%;
+}
+
+.pic5 {
+  width: 45%;
+}
+
+.pic3 {
+  width: 100%;
+}
+
+.pic6 {
+  width: 48%;
+}
+
+.pic7 {
+  width: 48%;
+}
+.pic8 {
+  width: 80%;
+}
+
+.vid {
+  flex-grow: 1;
+  width: 20vw;
+}
+
+article {
+  display: flex;
+}
+
+.article_content {
+  text-align: center;
+  width: 100vw;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background-color: lightskyblue;
+  padding-top: 2em;
+}
+
+.footer_item {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 320px) and (max-width: 719.98px) {
+  .logo,
+  .vid,
+  .pic2 {
+    display: none;
+  }
+
+  .pic {
+    flex-grow: 0.5;
+  }
+  header {
+    display: flex;
+  }
+
+  .nav_item {
+    width: 100%;
+    padding: 0.2em;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+  }
+  .article_content {
+    width: 100%;
+  }
+
+  a {
+    font-size: 0.9em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 1023.98px) {
+  a {
+    font-size: 1em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  article {
+    align-items: baseline;
+  }
+  .pic3 {
+    margin-top: 2.5em;
+  }
+  .p3 {
+    margin-top: 2em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .p3 {
+    margin-top: 2em;
+  }
+}
